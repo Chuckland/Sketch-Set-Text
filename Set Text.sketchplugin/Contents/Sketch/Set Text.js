@@ -3,11 +3,12 @@ var getUserResponse = function() {
     var textField = NSTextField.alloc().initWithFrame(NSMakeRect(0,0,250,25));
 
     userInterface.setMessageText("Set Text");
+    userInterface.setInformativeText("Move original text: *");
 
     textField.setStringValue("");
     userInterface.addAccessoryView(textField);
 
-    userInterface.addButtonWithTitle("Apply");
+    userInterface.addButtonWithTitle("Set");
     userInterface.addButtonWithTitle("Cancel");
 
     return {
