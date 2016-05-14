@@ -1,0 +1,24 @@
+{
+    "name" : "Set Text",
+    "author" : "Anton Dordzheev",
+    "description" : "",
+    "homepage": "",
+    "version": "1.0",
+    "identifier": "com.adordzheev.set-text",
+    "commands" : [
+        {
+            "script" : "Set Text.js",
+            "handler" : "onRun",
+            "name" : "Set Text",
+            "identifier" : "set_text",
+            "shortcut" : "cmd ctrl t"
+        }
+    ],
+    "menu" : {
+        "title" : "Set Text",
+        "isRoot" : true,
+        "items" : [
+            "set_text"
+        ]
+    }
+}
