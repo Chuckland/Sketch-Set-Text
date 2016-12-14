@@ -8,6 +8,8 @@ var getUserResponse = function() {
     textField.setStringValue("");
     userInterface.addAccessoryView(textField);
 
+    userInterface.alert().window().setInitialFirstResponder(textField);
+
     userInterface.addButtonWithTitle("Set");
     userInterface.addButtonWithTitle("Cancel");
 
